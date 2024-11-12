@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(10, 104, 99);
+    color:white;
+    font-family: 'Poppins','sans-serif';
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+nav ul li a{
+    color: white;
+}
+/* a.hover{
+    background-color: rgba(161, 165, 163, 0.274);
+} */
+
+.left{
+    font-size: 2rem;
+}
+.firstsection{
+    font-family: Verdana;
+    font-size: 50;
+    text-align: center;
+    background-color: rgb(128, 10, 10);
+    padding: 30px;
+}
+.secondsection{
+    display: flex;
+    /* height: 100px; */
+    padding: 20px;
+}
+.tophead{
+    font-family: Verdana;
+    text-align: center;
+}
+.about{
+    text-align: justify;
+    font-family: Times New Roman;
+    font-size: 25px;
+    color: rgb(215, 252, 200);
+}
+.thirdsection{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.foursection{
+    text-align: center;
+    padding: 10px;
+    font-family: Times New Roman;
+    font-size: 25px;
+    color: rgb(215, 252, 200);
+}
+.fivesection{
+    text-align: center;
+    padding: 10px;
+    font-family: Times New Roman;
+    font-size: 20px;
+    color: rgb(215, 252, 200);
+}
+.sixsection{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 15px;
+    color: rgb(184, 240, 164);
+    background-color: black;
+}
