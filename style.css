@@ -104,6 +104,11 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   header nav .right ul {
     flex-direction: column;
     gap: 10px;
@@ -111,25 +116,31 @@ footer {
 
   .secondsection {
     flex-direction: column;
+    gap: 20px;
   }
 
   .thirdsection {
     flex-direction: column;
+    gap: 20px;
   }
 
   .about {
     text-align: center;
   }
+
+  .fivesection form {
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
   header nav {
-    flex-direction: column;
-    align-items: flex-start;
+    padding: 10px;
   }
 
   .firstsection h2 {
     font-size: 1.2rem;
+    text-align: center;
   }
 
   .fivesection form label {
@@ -139,5 +150,10 @@ footer {
 
   footer {
     font-size: 0.8rem;
+  }
+
+  .sixsection a img {
+    height: 25px;
+    width: 25;
   }
 }
