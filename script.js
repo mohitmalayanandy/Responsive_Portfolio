@@ -3,3 +3,4 @@ function toggleMenu() {
     const navMenu = document.querySelector('.right ul');
     navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
 }
+  
